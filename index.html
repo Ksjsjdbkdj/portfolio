@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Krish — web projects, skills and contact information.">
+  <title>Krish | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">K<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">STUDENT · WEB DEVELOPMENT</p>
+        <h1>Hi, I'm <span>Krish.</span><br>Building things for the web.</h1>
+        <p class="intro">I'm a student exploring web development, creative technology and practical digital projects. This portfolio brings together my work, skills and ways to connect.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work</a>
+          <a class="button secondary" href="https://github.com/Ksjsjdbkdj" target="_blank" rel="noopener">GitHub profile ↗</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="avatar">K</div>
+        <p class="card-label">CURRENT FOCUS</p>
+        <h2>Learning by building.</h2>
+        <p>HTML · CSS · JavaScript</p>
+        <div class="status"><span></span> Open to learning opportunities</div>
+      </aside>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">01 / ABOUT</p>
+      <h2 class="section-title">A little about me</h2>
+      <p class="section-copy">I'm interested in technology, design and creating useful digital experiences. I enjoy taking an idea, breaking it into smaller problems and turning it into something people can use. I'm currently strengthening my foundations in front-end development and GitHub collaboration.</p>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">02 / SKILLS</p>
+      <h2 class="section-title">Tools I work with</h2>
+      <div class="skill-grid">
+        <div class="skill">HTML5 <span>Structure</span></div>
+        <div class="skill">CSS3 <span>Styling & layout</span></div>
+        <div class="skill">JavaScript <span>Interactions</span></div>
+        <div class="skill">Git & GitHub <span>Version control</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">03 / SELECTED WORK</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-copy">A selection of my web technology assignment projects.</p>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-number">01</div>
+          <p class="project-type">MULTI-PAGE WEBSITE</p>
+          <h3>NOIR HOUSE</h3>
+          <p>A café-themed website with multiple pages, navigation and responsive styling.</p>
+          <a href="https://profound-kitsune-537777.netlify.app/noir-house/" target="_blank" rel="noopener">View live project ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">02</div>
+          <p class="project-type">JAVASCRIPT APP</p>
+          <h3>QUIZ LAB</h3>
+          <p>An interactive quiz with instant feedback, scoring and progress tracking.</p>
+          <a href="https://6afd5f197f5e3135ef0e7641--webqui.netlify.app/quiz-lab/" target="_blank" rel="noopener">View live project ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">03</div>
+          <p class="project-type">WEATHER DASHBOARD</p>
+          <h3>ATMOS</h3>
+          <p>A weather dashboard using live forecast data and asynchronous JavaScript.</p>
+          <a href="https://6afd620369b105b35e1e944c--weatherpli.netlify.app/atmos-weather-dashboard/" target="_blank" rel="noopener">View live project ↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">04</div>
+          <p class="project-type">EXPENSE TRACKER</p>
+          <h3>PULSE</h3>
+          <p>An expense tracker with transaction management and browser storage.</p>
+          <a href="https://6afd657032a1296aadb4aa75--pulsetracking222.netlify.app/pulse-expense-tracker/" target="_blank" rel="noopener">View live project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2 class="section-title">Let's connect.</h2>
+          <p class="section-copy">Find me on GitHub or reach out by email.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/Ksjsjdbkdj" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="mailto:your-email@example.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Krish. Built with HTML, CSS & JavaScript.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
